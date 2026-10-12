@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "provider": "edge-tts",
+  "packageVersion": "7.2.8",
+  "pythonVersion": "3.12",
+  "language": "zh-CN",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "optionalVoice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "volume": "+0%",
+  "pitch": "+0Hz",
+  "format": "mp3",
+  "subtitleFormat": "srt"
+}

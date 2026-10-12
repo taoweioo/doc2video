@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "presets": {
+    "enter": {
+      "durationSeconds": 0.45,
+      "distanceRatio": 0.02,
+      "scaleFrom": 0.96,
+      "spring": {"damping": 200, "stiffness": 100, "mass": 1, "overshootClamping": true}
+    },
+    "stagger": {"gapSeconds": 0.1},
+    "path": {"durationSeconds": 0.9, "pauseAtNodeSeconds": 0.25},
+    "focus": {"durationSeconds": 0.65, "scale": 1.12, "holdSeconds": 0.8},
+    "emphasis": {"inSeconds": 0.2, "holdSeconds": 0.7, "outSeconds": 0.25, "dimOpacity": 0.4},
+    "state-change": {"durationSeconds": 0.45, "resultHoldSeconds": 1.0}
+  }
+}

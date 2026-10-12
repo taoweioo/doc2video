@@ -1,0 +1,22 @@
+{
+  "name": "doc2video-private-runtime",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@remotion/bundler": "4.0.526",
+    "@remotion/cli": "4.0.526",
+    "@remotion/renderer": "4.0.526",
+    "@remotion/media": "4.0.526",
+    "@remotion/transitions": "4.0.526",
+    "@remotion/captions": "4.0.526",
+    "remotion": "4.0.526",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  }
+}

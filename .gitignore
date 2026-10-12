@@ -1,0 +1,23 @@
+# 发布仓库只包含 Skill、安装入口和使用说明；其余文件保留在本地。
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/.agents/
+!/scripts/
+
+/.agents/*
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/doc2video/
+
+/scripts/*
+!/scripts/install.mjs
+
+# 发布目录内也排除本地环境与生成产物。
+.DS_Store
+node_modules/
+work/
+doc2video-workspace/
+dist/
+.env*
